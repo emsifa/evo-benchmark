@@ -1,5 +1,5 @@
-echo "Move branch: evo"
-git checkout evo
+echo "Copy routes/_evo.php -> routes/api.php"
+cp routes/_evo.php routes/api.php
 
 echo ""
 echo "[evo] Clear route caches"

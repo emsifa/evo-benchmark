@@ -1,5 +1,5 @@
-echo "Move branch: std"
-git checkout std
+echo "Copy routes/_std.php -> routes/api.php"
+cp routes/_std.php routes/api.php
 
 echo ""
 echo "[std] Clear route caches"
